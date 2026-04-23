@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hubungi Dimas Ferial, seorang Frontend Developer untuk kolaborasi atau pertanyaan."
+    />
+    <meta
+      name="keywords"
+      content="Kontak, Frontend Developer, Form Hubungi, Dimas Ferial"
+    />
+    <meta name="author" content="dimasferial05-ctrl" />
+    <title>Contact - Frontend Developer</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <strong>dimasferial05-ctrl</strong>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Contact Me</h1>
+        <p>Silakan isi formulir di bawah ini untuk menghubungi saya.</p>
+
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Formulir Pesan</legend>
+            <p>
+              <label for="name">Nama Lengkap:</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Masukkan nama Anda"
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="contoh@mail.com"
+                required
+              />
+            </p>
+            <p>
+              <label for="subject">Subjek:</label><br />
+              <select id="subject" name="subject">
+                <option value="kerjasama">Tawaran Kerjasama</option>
+                <option value="pertanyaan">Pertanyaan Umum</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+            </p>
+            <p>
+              <label for="message">Pesan:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="30"
+                placeholder="Tulis pesan Anda di sini..."
+                required
+              ></textarea>
+            </p>
+            <p>
+              <button type="submit">Kirim Pesan</button>
+              <button type="reset">Hapus Form</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <hr />
+    <footer>
+      <p>&copy; all rights reserved 2025 - Dimas Ferial</p>
+    </footer>
+  </body>
+</html>
